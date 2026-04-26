@@ -1,0 +1,60 @@
+.First{
+   background-color: aqua;
+border-radius: 5%;  
+}
+.Third{
+    /* background-color: yellowgreen; */
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+
+}
+.Second{
+   
+    display: flex;
+    justify-content: flex-end;
+   
+
+}
+a{
+    text-decoration: none;
+    color:red;
+}
+.four{
+    margin:10px;
+    padding: 5px;
+}
+.six {
+  display: flex;
+  height: 100vh;
+}
+
+.six img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+
+.six > div:first-child {
+  width: 50%;
+}
+
+/* right half (text area) */
+.six > div:last-child {
+  width: 50%;
+  justify-content: center;
+  /* align-items: center; */
+  margin: 20px;
+  padding: 10px;
+}
+
+.seven h2 {
+  margin: 0;
+}
+#ONE{
+    color: blue;
+}
+.Con_one>a{
+    color:black
+}
