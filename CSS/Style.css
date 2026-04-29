@@ -64,3 +64,33 @@ ul a{
 .ten{
   padding: 10px;
 }
+.ten{
+  padding:10px;
+  margin: 10px;
+  background-color: orangered;
+  border-radius: 10px;
+  width: 200px;
+  border: 2px dotted aqua;
+  box-shadow: 2px 5px 5px 2px rgb(39, 14, 129);
+ 
+
+}
+.ten:hover{
+  background-color: yellowgreen;
+  cursor: pointer; 
+  transform: translateY(-5px);
+ 
+}
+
+.ten>a{
+  color:black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+
+}
+.Eleven{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
